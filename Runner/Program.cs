@@ -9,9 +9,9 @@ namespace Runner
         {
             List<Day> days = new List<Day>()
             {
-                //new Day01(),
-                //new Day02(),
-                //new Day03(),
+                new Day01(),
+                new Day02(),
+                new Day03(),
                 //new Day04(),
                 //new Day05(),
                 //new Day06(),
@@ -33,7 +33,7 @@ namespace Runner
                 //new Day22(),
                 //new Day23(),
                 //new Day24(),
-                new Day25()
+                //new Day25()
             };
 
             foreach (var day in days)
